@@ -1,0 +1,25 @@
+{
+  "name": "unit_teste_project",
+  "version": "1.0.0",
+  "description": "just a test to learn",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffeescript/register -w",
+    "coffee": "coffee -o test/ -cw coffee/",
+    "start": "(coffee --compile --o coffee --watch coffee &);nodemon ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashleygwilliams/unit_teste_project.git"
+  },
+  "author": "Milton K. Souza",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.17.4"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.3.0",
+    "should": "^13.2.1"
+  },
+  "homepage": "https://github.com/miltz9/unit_teste_project"
+}
