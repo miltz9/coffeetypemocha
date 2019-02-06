@@ -15,6 +15,7 @@
   "author": "Milton K. Souza",
   "license": "ISC",
   "dependencies": {
+    "mocha": "^5.2.0",
     "nodemon": "^1.17.4"
   },
   "devDependencies": {

@@ -1,17 +1,20 @@
+# DOCUMENT
+
 There are some dependencies to this project
+
 * Node.js
 * Coffee
 * Nodemon
+* Mocha
 
-To compile **"coffee script"** using 
-<span style="color:blue">(watcher mode)</span> 
-written in "*coffee/*". Just run:
+To compile **"coffee script"** using (watcher mode) written in "*coffee/*". Just run:
+
 ```javascript
-$ npm run coffee
+npm run coffee
 ```
-Run test with mocha 
-<span style="color:blue">(watcher mode)</span> 
-using:
+
+Run test with mocha (watcher mode) using:
+
 ```javascript
-$ npm test
+npm test
 ```
